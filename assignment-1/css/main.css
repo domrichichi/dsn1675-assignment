@@ -62,7 +62,7 @@ img {
 	left: 150px;
 }
 
-content {
+.content {
 	position: relative;
 }
 
@@ -76,7 +76,11 @@ content {
 	padding-left:20px;
 }
 
-.date {
+.place {
+	display: inline-block;
+}
+
+.Egypt {
 	display: inline-block;
 }
 
@@ -89,3 +93,50 @@ content {
 	display: inline-block;
 	padding-left: 20px;
 }
+
+
+.atlantis {
+position absolute
+}
+
+.movie {
+	position: relative;
+}
+
+.floatwonder-two {
+	padding-left:20px;
+	padding-right:20px;
+}
+
+.float-two {
+	position:absolute;
+	bottom: 4em;
+	left: 200px;
+}
+
+.drawing {
+	width: 100%;
+}
+
+.atlfig {
+	position: relative;
+	color: white;
+}
+
+.atldiv {
+	position: relative;
+}
+
+.atitle {
+	position:absolute;
+	bottom: 100px;
+	left: 150px;
+}
+
+.atlfloat {
+	position:absolute;
+	bottom: 4em;
+	left: 40px;
+}
+
+

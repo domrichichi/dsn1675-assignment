@@ -130,13 +130,18 @@ position absolute
 .atitle {
 	position:absolute;
 	bottom: 100px;
-	left: 150px;
+	left: 100px;
+	font-weight: bold;
+	font-size:1.3rem;
 }
 
 .atlfloat {
 	position:absolute;
 	bottom: 4em;
-	left: 40px;
+	left: 140px;
 }
 
 
+.sales {
+	text-align: center;
+}

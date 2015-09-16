@@ -10,13 +10,12 @@
 <header>
 
 	<h1>Museum of Antiquities</h1>
-
 		<nav class="menu">
 			<ul>
-				<li><ahref="">Seven wonders</a></li>
-				<li><ahref="">Buy tickets</a></li>
-				<li><ahref="">Now playing</a></li>
-				<li><ahref="">This week</a></li>
+				<a href="#sevenwonders"><li>Seven wonders</li></a>
+				<a href="#buytickets"><li>Buy tickets</li></a>
+				<a href="#nowplaying"><li>Now playing</li></a>
+				<a href="#thisweek"><li>This week</li></a>
 			</ul>
 		</nav>
 
@@ -24,7 +23,7 @@
 
 	<main>
 
-<div class="headfloat">
+<div id="sevenwonders" class="headfloat">
 	<div class= "content">
 	<img src="img/panorama.jpg" alt="panoramic view ">
 		<p class="floatwonder"><strong>The Seven Wonders of the Ancient World</strong></p>
@@ -38,19 +37,20 @@
 
 <h3>Great Pyramid of Giza</h3>
 
-	<dl>
-		<div class="info-one">
-			<div class= "date"><dt>Date of construction:</dt></div><div class= "data"><dd>2584–2561 BC</dd></div>
+	<div class="info-one">
+		<dl>
+			<dt class= "date">Date of construction:</dt><dd class= "data">2584–2561 BC</dd>
 		</div>
 		<div class="info-two">
 			<div class= "builders"><dt>Builders:</dt></div><div class= "Civ"><dd>Egyptians</dd></div>
 		</div>
 		<div class="info-three">
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Giza Necropolis, Egypt</dd></div>
-		</div>
-	</dl>
-		<ahref="">Learn more about Giza</a>
-
+		</dl>
+	</div>
+	<div class="button">
+		<a class="learnmore" href="">Learn more about Giza</a>
+	</div>
 <img class= "sevenwonders" src="img/babylon.jpg" alt="Image of Babylon">
 
 <h3>Hanging Gardens of Babylon</h3>
@@ -66,7 +66,10 @@
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Nineveh, Iraq</dd></div>
 		</div>
 	</dl>
-		<ahref="">Learn more about the Hanging Gardens</a>
+<div class="button">
+		<a class="learnmore" href="">Learn more about the Hanging Gardens</a>
+</div>
+
 
 <img class= "sevenwonders" src="img/artemis.jpg" alt="Image of Artemis">
 
@@ -82,9 +85,10 @@
 		<div class="info-three">
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Selçuk, Turkey</dt></div>
 		</div>
-
 	</dl>
-		<ahref="">Learn more about the Temple</a>
+	<div class="button">
+		<a class="learnmore" href="">Learn more about the Temple</a>
+	</div>
 
 <img class= "sevenwonders" src="img/zeus.jpg" alt="Image of Zeus">
 
@@ -100,7 +104,9 @@
 		<div class="info-three">
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Olympia, Greece</dd></div>
 	</dl>
-		<ahref="">Learn more about the Statue</a>
+<div class="button">
+		<a class="learnmore" href="">Learn more about the Statue</a>
+</div>
 
 <img class= "sevenwonders" src="img/mausoleum.jpg" alt="Image of Mausoleum">
 
@@ -117,7 +123,9 @@
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Bodrum, Turkey</dd></div>
 		</div>
 	</dl>
-		<ahref="">Learn more about the Mausoleum</a>
+<div class="button">
+		<a class="learnmore" href="">Learn more about the Mausoleum</a>
+</div>
 
 <img class= "sevenwonders" src="img/colossus.jpg" alt="Image of Colossus">
 
@@ -134,7 +142,9 @@
 			<div class"location"><dt>Location:</dt></div><div class= "place"><dd>Rhodes, Greece</dd></div>
 		</div>
 	</dl>
-			<ahref="">Learn more about Colossus</a>
+<div class="button">
+			<a class="learnmore" href="">Learn more about Colossus</a>
+</div>
 
 <img class= "sevenwonders" src="img/pharos.jpg" alt="Image of Pharos">
 
@@ -150,25 +160,29 @@
 			<div class"location"><dt>Location:</dt></div><div class= "egypt"><dd>Alexandria, Egypt</dd></div>
 		</div>
 	</dl>
-	<ahref="">Learn more about the Lighthouse</a>
+	<div class="button">
+	<a class="learnmore" href="">Learn more about the Lighthouse</a>
+</div>
 
-<h3 class="sales">Buy tickets</h3>
+
+<h3 id="#buytickets" class="sales">Buy tickets</h3>
 <p class="centerbody">Come explore the ancient wonders with our amazing teleportation technology that jumps you around the world.</p>
 
 <div>
-	<a href="">$15 for adults</a>
-	<a href="">$5 for kids</a>
+	<div>
+		<a class= "adults" href="">$15 for adults</a><a class= "kids" href="">$5 for kids</a>
+	</div>
 </div>
 
 <h3 class="sales">Become a member</h3>
 
 <p class="centerbody">Is one visit not enough?
-Join our yearly program for unlimited access.</p>
+	Join our yearly program for unlimited access.</p>
+	<div>
+		<a class= "adults" href="">$99 for adults</a><a class= "kids" href="">$39 for kids</a>
+	</div>
 
-<ahref="">$99 for adults</a>
-<ahref="">$39 for kids</a>
-
-<h3 class="sales">Now playing on the large screen</h3>
+<h3 id="#nowplaying" class="sales">Now playing on the large screen</h3>
 
 <figure class='atlfig'>
 	<div class="atldiv">
@@ -176,10 +190,12 @@ Join our yearly program for unlimited access.</p>
 			<p class= "atitle">Atlantis: Why we’re so mysterious</p>
 			<p class="atlfloat">From allegory to fiction to mystery</p>
 	</div>
+	<div class="showdiv">
+		<a class="showtimes" href="">See show times</a>
+	</div>
 </figure>
-<ahref="">[ See show times ]</a>
 
-<h2>This week at the museum</h2>
+<h2 id="#thisweek>This week at the museum</h2>
 
 <ol>
 <h3>Saturday & Sunday</h3>
@@ -187,24 +203,24 @@ Atlantis city tours
 Underwater explorer: see outside the bubble
 
 <h3>Monday</h3>
-Try this out: have fun building your own ancient wonder
-Amazing architecture: explore the science of how the pyramids were built
+<p>Try this out: have fun building your own ancient wonder
+Amazing architecture: explore the science of how the pyramids were built</p>
 
 <h3>Tuesday</h3>
-Awesome art: witness art in action as a marble sculpture is born
-Gold rush: learn about the metal and why it was so coveted
+<p>Awesome art: witness art in action as a marble sculpture is born
+Gold rush: learn about the metal and why it was so coveted</p>
 
 <h3>Wednesday</h3>
-Try this out: wear clothes that the ancients wore
-Gardenology: learn to plant and maintain amazing gardens
+<p>Try this out: wear clothes that the ancients wore
+Gardenology: learn to plant and maintain amazing gardens</p>
 
 <h3>Thursday</h3>
-Amazing architecture: explore the science of buildings
-Gardenology: the science behind trees and the environment
+<p>Amazing architecture: explore the science of buildings
+Gardenology: the science behind trees and the environment</p>
 
 <h3>Friday</h3>
-Atlantis city tours
-Awesome art: witness a full mosaic floor under construction
+<p>Atlantis city tours
+Awesome art: witness a full mosaic floor under construction</p>
 
 </main>
 
@@ -221,10 +237,10 @@ Awesome art: witness a full mosaic floor under construction
 	<p>Atlantis, Atlantis, Atlantic Ocean</p>
 
 	<div>
-		<a href="">Exhibits</a>
-		<a href="">Collections</a>
-		<a href="">Donors & sponsors</a>
-		<a href="">Teacher information</a>
-		<a href="">Birthday rentals</a>
+		<a class="services" href="">Exhibits</a>
+		<a class="services" href="">Collections</a>
+		<a class="services" href="">Donors & sponsors</a>
+		<a class="services" href="">Teacher information</a>
+		<a class="services" href="">Birthday rentals</a>
 	</d>
 </footer>
